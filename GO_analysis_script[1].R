@@ -54,3 +54,4 @@ ggplot(top10_high, aes(x = reorder(Description, p.adjust), y = -log10(p.adjust))
 ggplot(top10_low, aes(x = reorder(Description, p.adjust), y = -log10(p.adjust))) +
   geom_col(fill = "firebrick") +
   labs(title = "Top 10 GO-termen (verlaagde expressie)", x = "GO-term", y = "-log10(p.adjust)")
+ 
