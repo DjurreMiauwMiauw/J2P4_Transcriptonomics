@@ -4,7 +4,8 @@ width = “600”/>
 </p>
 
 # Inhoud
-
+- 'plaatjes/'
+- 
 
 # Inleiding J2P4 Transcriptonomics project, welkom bij Djurre's github pagina.
 
@@ -26,4 +27,10 @@ Vervolgens werd een GO-verrijkingsanalyse uitgevoerd. In [Figuur 2](plaatjes/Top
 
 Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](hsa05323.pathview). Hierin zijn verschillende betrokken genen binnen het hsa05323 – Rheumatoid arthritis pathway aangeduid met kleur op basis van hun expressieniveau. Zowel genen met verhoogde als verlaagde expressie zijn zichtbaar binnen het pathway.
 # conclusie
-wat de fuck
+In dit project werd RNA-seq data van synoviumbiopten van RA-patiënten en gezonde controles geanalyseerd om inzicht te krijgen in genexpressieveranderingen bij reumatoïde artritis. De differentiële expressieanalyse toonde aan dat meerdere genen significant verhoogd of verlaagd tot expressie kwamen in het RA-synovium.
+
+De GO-analyse liet zien dat verhoogd tot expressie gebrachte genen voornamelijk betrokken zijn bij immuunactivatie en migratieprocessen van leukocyten en lymfocyten. Verlaagde genen waren daarentegen gerelateerd aan ontwikkelings- en differentiatieprocessen.
+
+De KEGG-pathwayanalyse bevestigde de betrokkenheid van het bekende hsa05323 – Rheumatoid arthritis pathway, waarin diverse ontstekingsgerelateerde genen verhoogd tot expressie kwamen.
+
+Deze resultaten leveren een overzicht van relevante biologische processen en signaalroutes die actief zijn bij RA, en ondersteunen het gebruik van transcriptomics om ziekte-gerelateerde mechanismen in kaart te brengen.
