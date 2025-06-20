@@ -22,8 +22,8 @@ Vervolgens werd een Gene Ontology-analyse uitgevoerd met clusterProfiler om betr
 # resultaten
 Om de verschillen in genexpressie tussen RA-patiënten en gezonde controles in kaart te brengen, werd een differentiële expressieanalyse uitgevoerd. In de volcano plot [(Figuur 1)](plaatjes/VolcanoplotWC) zijn genen met een significant verhoogde of verlaagde expressie weergegeven op basis van log2 fold change en adjusted p-waarde.
 
-Vervolgens werd een GO-verrijkingsanalyse uitgevoerd. In Figuur 2 zijn de 25 meest verrijkte biologische processen weergegeven die geassocieerd zijn met verhoogde genexpressie. Enkele voorbeelden hiervan zijn leukocyte chemotaxis, T cell activation en immune receptor signaling. Figuur 3 toont de top 25 GO-termen voor genen met verlaagde expressie, waaronder termen gerelateerd aan celontwikkeling en differentiatie, zoals pattern specification process en axonogenesis.
+Vervolgens werd een GO-verrijkingsanalyse uitgevoerd. In [Figuur 2](plaatjes/Top25hoog) zijn de 25 meest verrijkte biologische processen weergegeven die geassocieerd zijn met verhoogde genexpressie. Enkele voorbeelden hiervan zijn leukocyte chemotaxis, T cell activation en immune receptor signaling. [Figuur 3](plaatjes/Top25_laag) toont de top 25 GO-termen voor genen met verlaagde expressie, waaronder termen gerelateerd aan celontwikkeling en differentiatie, zoals pattern specification process en axonogenesis.
 
-Tot slot werd een KEGG-pathwayanalyse uitgevoerd (Figuur 4). Hierin zijn verschillende betrokken genen binnen het hsa05323 – Rheumatoid arthritis pathway aangeduid met kleur op basis van hun expressieniveau. Zowel genen met verhoogde als verlaagde expressie zijn zichtbaar binnen het pathway.
+Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](hsa05323.pathview). Hierin zijn verschillende betrokken genen binnen het hsa05323 – Rheumatoid arthritis pathway aangeduid met kleur op basis van hun expressieniveau. Zowel genen met verhoogde als verlaagde expressie zijn zichtbaar binnen het pathway.
 # conclusie
 wat de fuck
