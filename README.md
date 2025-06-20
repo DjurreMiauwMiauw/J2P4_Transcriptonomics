@@ -6,6 +6,9 @@ width = “600”/>
 # Inhoud
 - `plaatjes/` - gebruikte afbeeldingen in deze github.
 - `Data_raw/` - ruwe data van Controle groepen en patiënt groepen.
+- `scripts/` - R scripts die gebruikt zijn in dit onderzoek
+- `Homo_sapiens.GRCh38.114.gtf/` - Referentie genoom die gebruikt is dit project.
+- `README/` - Klik hier om de github pagina in volledige vorm te lezen.
 
 # Inleiding
 
