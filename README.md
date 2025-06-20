@@ -1,6 +1,5 @@
-<p align =”center”>
-<img src = “plaatjes/Transcriptonomics_startpagina.jpg” alt = "Transcriptomics_startpagina"
-width = “600”/>
+<p align="center">
+  <img src="plaatjes/Transcriptonomics_startpagina.jpg" alt="Transcriptomics_startpagina" width="600"/>
 </p>
 
 # Inhoud
