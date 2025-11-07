@@ -21,9 +21,13 @@
 
 # Inleiding
 
-In dit project is er gekeken naar Reumatoïde Artritis (RA). Dat is een systemische auto-immuunziekte waarvan de oorzaak nog niet bekend is. Wetenschappers denken dat de oorzaak een combinatie lijkt te zijn van genetische aanlag, omgevingsfactoren en een ontspoord immuunsysteem. RA komt voor bij 0.3-1% in de wereldwijde bevolking. Vrouwen zijn 2-3x gevoeliger dan mannen voor het verkrijgen van de ziekte. Er wordt veel onderzoek gedaan naar specifieke genexpressie in patiënten voor de genezing van RA. 
+Reumatoïde artritis (RA) is een auto-immuunziekte die gepaard gaat met een chronisch ontstekingsproces dat zowel de gewrichten als organen buiten de gewrichten kan aantasten, zoals het hart, de longen en het zenuwstelsel. Er bestaan verschillende vormen van artritis, die kunnen worden onderverdeeld in niet-ontstekingsgebonden artritis, zoals artrose, en ontstekingsgebonden artritis. Deze ontstekingen kunnen ontstaan door kristalafzetting, bacteriële of virale infecties of door auto-immuunprocessen. Ongeveer 0,3–1% van de wereldbevolking lijdt aan deze ziekte, waarbij vrouwen vaker getroffen worden dan mannen (Radu & Bungau, 2021; Platzer et al., 2019).
 
-In dit onderzoek zijn 4 samples van personen zonder RA en 4 personen met een RA diagnose van meer dan 12 maanden. Hierbij zijn samples genomen van gewrichtsslijmvlies. Met behulp van R wordt een transcriptonomics analyse uitgevoerd. Hierbij wordt gekeken welke genen meer of minder tot expressie komen. Ook wordt gekeken naar welke pathways betrokken zijn bij de ziekte met behulp van een Gene Ontology analyse.
+De oorzaak van RA is nog niet volledig bekend. Waarschijnlijk is het geen gevolg van één enkele factor, maar van een combinatie van genetische variaties, veranderingen in genexpressie, auto-immuniteit en omgevingsinvloeden. Hierdoor is er nog geen behandeling die de ziekte volledig kan genezen (Platzer et al., 2019).
+
+In dit onderzoek zijn vier monsters van patiënten met een RA-diagnose van meer dan twaalf maanden en vier controles onderzocht. De monsters zijn afkomstig van gewrichtsslijmvlies. Met behulp van RStudio is een transcriptomics-analyse uitgevoerd om te bepalen welke genen meer of minder tot expressie komen. Daarnaast is onderzocht welke biologische pathways hierbij betrokken zijn met behulp van een Gene Ontology-analyse.
+
+Het doel van dit onderzoek is om inzicht te krijgen in de genen en pathways die betrokken zijn bij reumatoïde artritis en zo bij te dragen aan een beter begrip van de moleculaire processen achter deze ziekte.
 
 # methoden
 Voor dit onderzoek naar reumatoïde artritis (RA) werd RNA-sequencing data van synoviumbiopten geanalyseerd van vier gezonde controles en vier RA-patiënten met meer dan 12 maanden diagnose De controlegroep was ACPA-negatief en de RA-groep ACPA-positief. De ruwe sequencingbestanden (FASTQ) werden uitgelijnd op het humane referentiegenoom (GRCh38) met behulp van de align-functie uit het Rsubread-pakket, na het aanmaken van een index. Hierna werden de resulterende BAM-bestanden gesorteerd en geïndexeerd met Rsamtools.
@@ -69,15 +73,13 @@ Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](images/hsa05323.pa
 
 
 # Kennis van beheersystemen
-GitHub is in dit project gebruikt als versiebeheersysteem om de volledige workflow van de transcriptomics-analyse inzichtelijk te maken. De repository bevat alle relevante bestanden — van ruwe data en scripts tot resultaten en figuren — waardoor elke stap in het onderzoeksproces traceerbaar blijft. Door het gebruik van branches en commits konden wijzigingen in R-scripts gecontroleerd worden doorgevoerd zonder verlies van eerdere versies.
+Voor dit project is GitHub gebruikt om de bestanden op één plek te bewaren en het project overzichtelijk te houden. Op de GitHub-pagina staan de data, scripts en resultaten zodat alles makkelijk terug te vinden is. Het systeem werkt met iets dat branches heet, wat bedoeld is om verschillende versies van bestanden apart te kunnen houden. Op deze manier kon het werk worden bijgehouden tijdens de analyse, zonder dat bestanden verloren gingen.
 
 
 # Inrichting van het beheersysteem
-De GitHub-repository is gestructureerd volgens richtlijnen voor reproduceerbaar onderzoek. De mapstructuur is overzichtelijk ingericht met afzonderlijke mappen voor ruwe data (`Data_raw`), scripts (`scripts`), referentiegegevens (`Hs_referentie`), en resultaten (`images`).  
-Daarnaast bevat het README-bestand een duidelijke beschrijving van de workflow, gebruikte softwarepakketten (zoals *DESeq2*, *clusterProfiler* en *pathview*), en verwijzingen naar de bijbehorende analyses. Dit zorgt ervoor dat de volledige data-analyse eenvoudig te reproduceren is door derden.
+De GitHub-repository is ingedeeld in verschillende mappen om structuur aan te brengen in het project. Er zijn aparte mappen gemaakt voor de ruwe data, de scripts en de resultaten van de analyse. In het README-bestand staat beschreven wat er in de repository te vinden is en hoe de bestanden gebruikt kunnen worden. De indeling zorgt ervoor dat het project overzichtelijk blijft, dat duidelijk is waar elk onderdeel zich bevindt en dat het te reproduceren is door derden.
 
 
 # Communicatie over het beheersysteem
-Via GitHub is niet alleen de onderzoeksstructuur gedocumenteerd, maar wordt ook transparant gecommuniceerd over de uitgevoerde analyses. Door middel van commits, beschrijvende commit-berichten en het README-bestand wordt helder weergegeven welke stappen zijn uitgevoerd en waarom.  
-Hierdoor kunnen medestudenten of onderzoekers de analyse volgen, controleren en hergebruiken — wat bijdraagt aan de openheid en betrouwbaarheid van het bio-informaticaonderzoek.
+Github is gebruikt in dit onderzoek om alle bestanden centraal op te slaan en de bestanden makkelijk bereikbaar te maken. Ook is het gebruikt om het project duidelijk te documenteren en duidelijk te maken welke stappen ondernomen zijn. De beschrijving van alle stappen die gedaan zijn zorgen ervoor dat andere onderzoekers het onderzoek zouden kunnen begrijpen en te herhalen. In de repository zijn de ruwe data, R-scripts, resultaten en figuren samengebracht op één plek om alles terug te vinden.
 
