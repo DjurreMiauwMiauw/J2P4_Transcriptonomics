@@ -1,4 +1,4 @@
-<h1 align="center">🔬 Analyse van genexpressie en betrokken pathways in synoviumweefsel van RA-patiënten</h1>
+<h1 align="center">Analyse van genexpressie en betrokken pathways in synoviumweefsel van RA-patiënten</h1>
 
 <p align="center">
   <strong>Auteur:</strong> Djurre Scharringa<br>
