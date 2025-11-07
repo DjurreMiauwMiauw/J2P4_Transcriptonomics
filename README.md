@@ -1,3 +1,14 @@
+<h1 align="center">🔬 Analyse van genexpressie en betrokken pathways in synoviumweefsel van RA-patiënten</h1>
+
+<p align="center">
+  <strong>Author:</strong> Djurre Scharringa<br>
+  <strong>Date:</strong> November 2025<br>
+  <strong>Project:</strong> J2P4 - Transcriptomics
+</p>
+
+<hr>
+
+
 <p align="center">
   <img src="images/Transcriptonomics_startpagina.jpg" alt="Transcriptomics_startpagina" width="600"/>
 </p>
