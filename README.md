@@ -23,7 +23,7 @@ De genexpressie werd gekwantificeerd met featureCounts op basis van een GTF-anno
 Vervolgens werd een Gene Ontology-analyse uitgevoerd met clusterProfiler om betrokken biologische processen te identificeren, apart voor verhoogde en verlaagde genen. Resultaten werden visueel weergegeven via ggplot2 en een EnhancedVolcano-plot. Tot slot werd pathway-analyse verricht met behulp van het pathview-pakket op geselecteerde KEGG-pathways.
 
 # resultaten
-Om de verschillen in genexpressie tussen RA-patiënten en gezonde controles in kaart te brengen, werd een differentiële expressieanalyse uitgevoerd. In de volcano plot [(Figuur 1)](images/VolcanoplotWC) In dit figuur valt te zien dat er meer rode significante stippen verder naar rechts uitwijken dan verder links. 
+Om de verschillen in genexpressie tussen RA-patiënten en gezonde controles in kaart te brengen, werd een differentiële expressieanalyse uitgevoerd. In de volcano plot ![Volcano plot](./images/VolcanoplotWC.png) In dit figuur valt te zien dat er meer rode significante stippen verder naar rechts uitwijken dan verder links. 
 
 Vervolgens werd een GO-verrijkingsanalyse uitgevoerd. In [Figuur 2](images/Top25hoog) zijn de 25 meest verrijkte biologische processen die vaker voorkomen in patiënten van RA. Deze verhoogde expressies hebben allemaal dichtbij een -log10(p.adjust) van 10 of erboven. [Figuur 3](images/Top25_laag) toont de top 25 GO-termen voor genen met verlaagde expressie. Hierbij zitten de meeste van de verlaagde expressies rond een -log10(p.adjust) van 3. of erboven.
 
