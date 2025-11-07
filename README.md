@@ -70,6 +70,14 @@ Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](images/hsa05323.pa
   </a>
 </p>
 
+# conclusie
+In dit project werd RNA-seq data van synoviumbiopten van RA-patiënten en gezonde controles geanalyseerd om inzicht te krijgen in genexpressieveranderingen bij reumatoïde artritis. De differentiële expressieanalyse toonde aan dat meerdere genen significant verhoogd of verlaagd tot expressie kwamen in het RA-synovium.
+
+De GO-analyse liet zien dat verhoogd tot expressie gebrachte genen voornamelijk betrokken zijn bij immuunactivatie en migratieprocessen van leukocyten en lymfocyten. Verlaagde genen waren daarentegen gerelateerd aan ontwikkelings- en differentiatieprocessen. De KEGG-pathwayanalyse bevestigde de betrokkenheid van het bekende hsa05323 – Rheumatoid arthritis pathway, waarin diverse ontstekingsgerelateerde genen verhoogd tot expressie kwamen.
+
+Dit onderzoek heeft beperkingen aan betrouwbaarheid. De steekproef bevatte slechts 4 patiënten en 4 controlegroepen. Door deze beperkte steekproef kunnen bepaalde genen ook toevallig significant verschillend lijken. De verschillen binnenin de patiëntengroep was klein. De patiënten waren allemaal vrouwen tussen de 54 en 66, terwijl de controlegroep juist alleen maar vrouwen had tussen de 15 en 42. Reumatoide artritis is niet een ziekte die alleen bij vrouwen voorkomt, een lak aan mannen zorgt ook voor twijfels bij de betrouwbaarheid van het onderzoek.
+
+Ondanks de beperkingen die dit onderzoek heeft gehad blijven deze resultaten een overzicht van relevante biologische processen en signaalroutes die actief zijn bij RA leveren. Ook wordt hierbij het gebruik van transcriptonomics ondersteund om ziekte-gerelateerde mechanismen in kaart te brengen.
 
 
 # Kennis van beheersystemen
