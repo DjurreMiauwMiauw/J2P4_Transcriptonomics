@@ -13,7 +13,7 @@
 </p>
 
 # Inhoud
-- `plaatjes/` - gebruikte afbeeldingen in deze github.
+- `images/` - gebruikte afbeeldingen in deze github.
 - `Data_raw/` - ruwe data van Controle groepen en patiënt groepen.
 - `scripts/` - R scripts die gebruikt zijn in dit onderzoek
 - `Hs_referentie` - Referentie genoom die gebruikt is dit project.
@@ -33,7 +33,7 @@ De genexpressie werd gekwantificeerd met featureCounts op basis van een GTF-anno
 Vervolgens werd een Gene Ontology-analyse uitgevoerd met clusterProfiler om betrokken biologische processen te identificeren, apart voor verhoogde en verlaagde genen. Resultaten werden visueel weergegeven via ggplot2 en een EnhancedVolcano-plot. Tot slot werd pathway-analyse verricht met behulp van het pathview-pakket op geselecteerde KEGG-pathways.
 
 # resultaten
-# resultaten
+
 Om de verschillen in genexpressie tussen RA-patiënten en gezonde controles in kaart te brengen, werd een differentiële expressieanalyse uitgevoerd. In de volcano plot [(Figuur 1)](images/VolcanoplotWC) In dit figuur valt te zien dat er meer rode significante stippen verder naar rechts uitwijken dan verder links. 
 
 <p align="center">
@@ -67,18 +67,17 @@ Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](images/hsa05323.pa
 </p>
 
 
-# Gebruik van GitHub voor data- en scriptbeheer
 
-## 🧭 Context van het beheersysteem
+# Kennis van beheersystemen
 GitHub is in dit project gebruikt als versiebeheersysteem om de volledige workflow van de transcriptomics-analyse inzichtelijk te maken. De repository bevat alle relevante bestanden — van ruwe data en scripts tot resultaten en figuren — waardoor elke stap in het onderzoeksproces traceerbaar blijft. Door het gebruik van branches en commits konden wijzigingen in R-scripts gecontroleerd worden doorgevoerd zonder verlies van eerdere versies.
 
 
-## 🧩 Inrichting van het beheersysteem
+# Inrichting van het beheersysteem
 De GitHub-repository is gestructureerd volgens richtlijnen voor reproduceerbaar onderzoek. De mapstructuur is overzichtelijk ingericht met afzonderlijke mappen voor ruwe data (`Data_raw`), scripts (`scripts`), referentiegegevens (`Hs_referentie`), en resultaten (`images`).  
 Daarnaast bevat het README-bestand een duidelijke beschrijving van de workflow, gebruikte softwarepakketten (zoals *DESeq2*, *clusterProfiler* en *pathview*), en verwijzingen naar de bijbehorende analyses. Dit zorgt ervoor dat de volledige data-analyse eenvoudig te reproduceren is door derden.
 
 
-## 💬 Communicatie over het beheersysteem
+# Communicatie over het beheersysteem
 Via GitHub is niet alleen de onderzoeksstructuur gedocumenteerd, maar wordt ook transparant gecommuniceerd over de uitgevoerde analyses. Door middel van commits, beschrijvende commit-berichten en het README-bestand wordt helder weergegeven welke stappen zijn uitgevoerd en waarom.  
 Hierdoor kunnen medestudenten of onderzoekers de analyse volgen, controleren en hergebruiken — wat bijdraagt aan de openheid en betrouwbaarheid van het bio-informaticaonderzoek.
 
