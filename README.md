@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="plaatjes/Transcriptonomics_startpagina.jpg" alt="Transcriptomics_startpagina" width="600"/>
+  <img src="images/Transcriptonomics_startpagina.jpg" alt="Transcriptomics_startpagina" width="600"/>
 </p>
 
 # Inhoud
@@ -23,11 +23,11 @@ De genexpressie werd gekwantificeerd met featureCounts op basis van een GTF-anno
 Vervolgens werd een Gene Ontology-analyse uitgevoerd met clusterProfiler om betrokken biologische processen te identificeren, apart voor verhoogde en verlaagde genen. Resultaten werden visueel weergegeven via ggplot2 en een EnhancedVolcano-plot. Tot slot werd pathway-analyse verricht met behulp van het pathview-pakket op geselecteerde KEGG-pathways.
 
 # resultaten
-Om de verschillen in genexpressie tussen RA-patiënten en gezonde controles in kaart te brengen, werd een differentiële expressieanalyse uitgevoerd. In de volcano plot [(Figuur 1)](plaatjes/VolcanoplotWC) In dit figuur valt te zien dat er meer rode significante stippen verder naar rechts uitwijken dan verder links. 
+Om de verschillen in genexpressie tussen RA-patiënten en gezonde controles in kaart te brengen, werd een differentiële expressieanalyse uitgevoerd. In de volcano plot [(Figuur 1)](images/VolcanoplotWC) In dit figuur valt te zien dat er meer rode significante stippen verder naar rechts uitwijken dan verder links. 
 
-Vervolgens werd een GO-verrijkingsanalyse uitgevoerd. In [Figuur 2](plaatjes/Top25hoog) zijn de 25 meest verrijkte biologische processen die vaker voorkomen in patiënten van RA. Deze verhoogde expressies hebben allemaal dichtbij een -log10(p.adjust) van 10 of erboven. [Figuur 3](plaatjes/Top25_laag) toont de top 25 GO-termen voor genen met verlaagde expressie. Hierbij zitten de meeste van de verlaagde expressies rond een -log10(p.adjust) van 3. of erboven.
+Vervolgens werd een GO-verrijkingsanalyse uitgevoerd. In [Figuur 2](images/Top25hoog) zijn de 25 meest verrijkte biologische processen die vaker voorkomen in patiënten van RA. Deze verhoogde expressies hebben allemaal dichtbij een -log10(p.adjust) van 10 of erboven. [Figuur 3](images/Top25_laag) toont de top 25 GO-termen voor genen met verlaagde expressie. Hierbij zitten de meeste van de verlaagde expressies rond een -log10(p.adjust) van 3. of erboven.
 
-Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](hsa05323.pathview). Hierin zijn verschillende betrokken genen binnen het hsa05323 – Rheumatoid arthritis pathway aangeduid met kleur op basis van hun expressieniveau. Zowel genen met verhoogde als verlaagde expressie zijn zichtbaar binnen het pathway.
+Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](images/hsa05323.pathview). Hierin zijn verschillende betrokken genen binnen het hsa05323 – Rheumatoid arthritis pathway aangeduid met kleur op basis van hun expressieniveau. Zowel genen met verhoogde als verlaagde expressie zijn zichtbaar binnen het pathway.
 # conclusie
 In dit project werd RNA-seq data van synoviumbiopten van RA-patiënten en gezonde controles geanalyseerd om inzicht te krijgen in genexpressieveranderingen bij reumatoïde artritis. De differentiële expressieanalyse toonde aan dat meerdere genen significant verhoogd of verlaagd tot expressie kwamen in het RA-synovium.
 
