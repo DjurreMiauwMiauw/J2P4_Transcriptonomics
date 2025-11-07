@@ -66,3 +66,19 @@ Tot slot werd een KEGG-pathwayanalyse uitgevoerd [(Figuur 4)](images/hsa05323.pa
   </a>
 </p>
 
+
+# Gebruik van GitHub voor data- en scriptbeheer
+
+## 🧭 Context van het beheersysteem
+GitHub is in dit project gebruikt als versiebeheersysteem om de volledige workflow van de transcriptomics-analyse inzichtelijk te maken. De repository bevat alle relevante bestanden — van ruwe data en scripts tot resultaten en figuren — waardoor elke stap in het onderzoeksproces traceerbaar blijft. Door het gebruik van branches en commits konden wijzigingen in R-scripts gecontroleerd worden doorgevoerd zonder verlies van eerdere versies.
+
+
+## 🧩 Inrichting van het beheersysteem
+De GitHub-repository is gestructureerd volgens richtlijnen voor reproduceerbaar onderzoek. De mapstructuur is overzichtelijk ingericht met afzonderlijke mappen voor ruwe data (`Data_raw`), scripts (`scripts`), referentiegegevens (`Hs_referentie`), en resultaten (`images`).  
+Daarnaast bevat het README-bestand een duidelijke beschrijving van de workflow, gebruikte softwarepakketten (zoals *DESeq2*, *clusterProfiler* en *pathview*), en verwijzingen naar de bijbehorende analyses. Dit zorgt ervoor dat de volledige data-analyse eenvoudig te reproduceren is door derden.
+
+
+## 💬 Communicatie over het beheersysteem
+Via GitHub is niet alleen de onderzoeksstructuur gedocumenteerd, maar wordt ook transparant gecommuniceerd over de uitgevoerde analyses. Door middel van commits, beschrijvende commit-berichten en het README-bestand wordt helder weergegeven welke stappen zijn uitgevoerd en waarom.  
+Hierdoor kunnen medestudenten of onderzoekers de analyse volgen, controleren en hergebruiken — wat bijdraagt aan de openheid en betrouwbaarheid van het bio-informaticaonderzoek.
+
